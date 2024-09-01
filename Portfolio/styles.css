@@ -1,0 +1,135 @@
+body{
+
+background-color:#353535;
+margin: 0%;
+padding: 0%;
+
+}
+.intro{
+    background-color:#e5e5e5 ;
+    padding: 80px ;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    
+    
+}
+.name{
+    padding: px;
+    margin: 20px;
+    font-family:   monospace;/*font style of the name*/
+    color:#ff7700; /*color of the name */
+
+}
+.name:hover{
+    color: #000000;
+}
+.social{
+    background-color: #ff7700;
+    padding: 100px;
+    
+    justify-content: center;
+    align-items: center ;
+
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff; /*nav bar tags color*/
+    padding: 30px;
+}
+a:hover{
+    color: #ffffff;
+
+}
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%; /* Ensures the navbar spans the full width */
+    background-color: #000000;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    z-index: 1000; /* Ensures the navbar stays above other content */
+}
+ 
+.About{
+    background-color: #ff7700;
+    padding: 100px;
+    
+}
+
+
+.skills{
+    background-color: #e5e5e5;
+    padding: 100px;
+    font-size: 20px;
+    
+     
+    
+}
+.skills h1{
+    text-align: center;
+    text-decoration: underline #ff7700;
+    
+}
+.progress-container {
+     
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+  
+#progress-bar {
+    height: 30px;
+    background-color: #ff7700;
+    transition: width 1s;
+    border-radius: 20px;
+}
+.soft{
+    font-size: 25px;
+}
+.web{
+    font-size: 12px;
+}
+h3{
+    text-decoration: underline #ff7700;
+     
+}
+.Projects{
+    padding: 100px;
+    background-color: #ff7700;
+
+}
+.Projects li{
+    background-color: #e5e5e5;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px;
+}
+.Projects li:hover{
+    background-color: #000000;
+    color: #e5e5e5;
+    cursor:default;
+   
+}
+.Education{
+    background-color: #e5e5e5;
+    padding: 100px;
+}
+table{
+    font-size: larger;
+}
+.social h1{
+    display: block;
+}
+
+.nav a:hover{
+    color: #ff7700;
+
+}
+
+
+
+
+
